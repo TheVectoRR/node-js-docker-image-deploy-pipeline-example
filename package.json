@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-demo",
+  "version": "1.0.0",
+  "description": "demo node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheVectoRR/node-js-docker-image-deploy-pipeline-example.git"
+  },
+  "author": "Jonathan Oudshoorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheVectoRR/node-js-docker-image-deploy-pipeline-example/issues"
+  },
+  "homepage": "https://github.com/TheVectoRR/node-js-docker-image-deploy-pipeline-example#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

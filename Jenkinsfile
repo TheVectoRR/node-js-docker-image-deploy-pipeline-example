@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo "Info: Building Docker Image"
-                    sh "docker build -t nodejs-demo:latest"
+                    sh "docker build -t nodejs-demo:latest ."
                     echo "Info: Docker Image built"
                 }
             }
